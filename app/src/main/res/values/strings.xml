@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="ginecolog_a">Ginecología</string>
+    <string name="traumatologia" />
+    <string name="quirofano">\n</string>
+    <string name="cirugia_general" />
+    <string name="cirugia_plastica" />
+</resources>

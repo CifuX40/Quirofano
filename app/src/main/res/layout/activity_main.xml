@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_de_pantalla"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Quirófano"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/btnVascular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnCirugiaGeneral"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:background="@null"
+        android:contentDescription="Cirugía general"
+        android:elevation="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cirugia_general"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toEndOf="@id/btnTraumatologia"
+        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.33" />
+
+    <ImageButton
+        android:id="@+id/btnCirugiaPlastica"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:contentDescription="@string/cirugia_plastica"
+        android:elevation="4dp"
+        android:focusable="true"
+        android:importantForAccessibility="yes"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cirugia_plastica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toEndOf="@id/btnUrologia"
+        app:layout_constraintTop_toBottomOf="@id/btnCirugiaGeneral"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.33" />
+
+    <ImageButton
+        android:id="@+id/btnTraumatologia"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:background="@null"
+        android:contentDescription="@string/traumatologia"
+        android:elevation="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/traumatologia"
+        app:layout_constraintEnd_toStartOf="@id/btnCirugiaGeneral"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toEndOf="@id/btnVascular"
+        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.33" />
+
+    <ImageButton
+        android:id="@+id/btnVascular"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:background="@null"
+        android:elevation="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cirugia_vascular"
+        app:layout_constraintEnd_toStartOf="@id/btnTraumatologia"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.33" />
+
+    <ImageButton
+        android:id="@+id/btnMaxilofacial"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="48dp"
+        android:background="@null"
+        android:contentDescription="Maxilofacial"
+        android:elevation="4dp"
+        android:focusable="true"
+        android:importantForAccessibility="yes"
+        android:scaleType="centerCrop"
+        android:src="@drawable/maxilofacial"
+        app:layout_constraintEnd_toStartOf="@id/btnGinecologia"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnOtorrino"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.33" />
+
+    <ImageButton
+        android:id="@+id/btnUrologia"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:contentDescription="Urologia"
+        android:elevation="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/urologia"
+        app:layout_constraintEnd_toStartOf="@id/btnCirugiaPlastica"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toEndOf="@id/btnOtorrino"
+        app:layout_constraintTop_toBottomOf="@id/btnTraumatologia"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.33" />
+
+    <ImageButton
+        android:id="@+id/btnGinecologia"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="48dp"
+        android:background="@null"
+        android:contentDescription="Ginecologia"
+        android:elevation="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ginecologia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toEndOf="@id/btnMaxilofacial"
+        app:layout_constraintTop_toBottomOf="@id/btnUrologia"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.33" />
+
+    <ImageButton
+        android:id="@+id/btnOtorrino"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:contentDescription="Otorrino"
+        android:elevation="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/otorrino"
+        app:layout_constraintEnd_toStartOf="@id/btnUrologia"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnVascular"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.33" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Cirugia Vascular"
+        app:layout_constraintEnd_toEndOf="@id/btnVascular"
+        app:layout_constraintStart_toStartOf="@id/btnVascular"
+        app:layout_constraintTop_toBottomOf="@id/btnVascular" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Traumatologia"
+        app:layout_constraintEnd_toEndOf="@id/btnTraumatologia"
+        app:layout_constraintStart_toStartOf="@id/btnTraumatologia"
+        app:layout_constraintTop_toBottomOf="@id/btnTraumatologia" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Cirugia general"
+        app:layout_constraintEnd_toEndOf="@id/btnCirugiaGeneral"
+        app:layout_constraintStart_toStartOf="@id/btnCirugiaGeneral"
+        app:layout_constraintTop_toBottomOf="@id/btnCirugiaGeneral" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/ginecolog_a"
+        app:layout_constraintEnd_toEndOf="@id/btnGinecologia"
+        app:layout_constraintStart_toStartOf="@id/btnGinecologia"
+        app:layout_constraintTop_toBottomOf="@id/btnGinecologia" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maxilofacial"
+        app:layout_constraintEnd_toEndOf="@id/btnMaxilofacial"
+        app:layout_constraintStart_toStartOf="@id/btnMaxilofacial"
+        app:layout_constraintTop_toBottomOf="@id/btnMaxilofacial" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otorrino"
+        app:layout_constraintEnd_toEndOf="@id/btnOtorrino"
+        app:layout_constraintStart_toStartOf="@id/btnOtorrino"
+        app:layout_constraintTop_toBottomOf="@id/btnOtorrino" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cirugia plástica"
+        app:layout_constraintEnd_toEndOf="@id/btnCirugiaPlastica"
+        app:layout_constraintStart_toStartOf="@id/btnCirugiaPlastica"
+        app:layout_constraintTop_toBottomOf="@id/btnCirugiaPlastica" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Urologia"
+        app:layout_constraintEnd_toEndOf="@id/btnUrologia"
+        app:layout_constraintStart_toStartOf="@id/btnUrologia"
+        app:layout_constraintTop_toBottomOf="@id/btnUrologia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
