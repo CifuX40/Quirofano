@@ -29,9 +29,17 @@ class MainActivity : AppCompatActivity() {
         findViewById<ImageButton>(R.id.btnOtorrino).setOnClickListener {
             startActivity(Intent(this, OtorrinoActivity::class.java))
         }
+
         findViewById<ImageButton>(R.id.btnUrologia).setOnClickListener {
             startActivity(Intent(this, UrologiaActivity::class.java))
         }
 
+        findViewById<ImageButton>(R.id.btnMaxilofacial).setOnClickListener {
+            startActivity(Intent(this, MaxilofacialActivity::class.java))
+        }
+
+        findViewById<ImageButton>(R.id.btnGinecologia).setOnClickListener {
+            startActivity(Intent(this, GinecologiaActivity::class.java))
+        }
     }
 }
