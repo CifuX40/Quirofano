@@ -192,7 +192,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Cirugia general"
+        android:text="Cirugía general"
         app:layout_constraintEnd_toEndOf="@id/btnCirugiaGeneral"
         app:layout_constraintStart_toStartOf="@id/btnCirugiaGeneral"
         app:layout_constraintTop_toBottomOf="@id/btnCirugiaGeneral" />
@@ -229,7 +229,7 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cirugia plástica"
+        android:text="Cirugía plástica"
         app:layout_constraintEnd_toEndOf="@id/btnCirugiaPlastica"
         app:layout_constraintStart_toStartOf="@id/btnCirugiaPlastica"
         app:layout_constraintTop_toBottomOf="@id/btnCirugiaPlastica" />
