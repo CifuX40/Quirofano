@@ -22,14 +22,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".CirugiaGeneralActivity"/>
+        <activity android:name=".CirugiaGeneralActivity" />
         <activity android:name=".CirugiaPlasticaActivity" />
         <activity android:name=".TraumatologiaActivity" />
         <activity android:name=".CirugiaVascularActivity" />
         <activity android:name=".OtorrinoActivity" />
         <activity android:name=".UrologiaActivity" />
         <activity android:name=".MaxilofacialActivity" />
-        <activity android:name=".GinecologiaActivity"/>
+        <activity android:name=".GinecologiaActivity" />
 
     </application>
 </manifest>
