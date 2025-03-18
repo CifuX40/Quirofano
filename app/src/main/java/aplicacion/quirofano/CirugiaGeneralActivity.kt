@@ -21,5 +21,11 @@ class CirugiaGeneralActivity : AppCompatActivity() {
             val intent = Intent(this, ColecistectomiaActivity::class.java)
             startActivity(intent)
         }
+
+        val btnHerniaAbierta = findViewById<Button>(R.id.button3)
+        btnHerniaAbierta.setOnClickListener {
+            val intent = Intent(this, HerniaAbiertaActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
