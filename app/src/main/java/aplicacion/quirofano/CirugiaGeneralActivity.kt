@@ -45,5 +45,11 @@ class CirugiaGeneralActivity : AppCompatActivity() {
             val intent = Intent(this, PancreatectomiaActivity::class.java)
             startActivity(intent)
         }
+
+        val btnApendicetomia = findViewById<Button>(R.id.button7)
+        btnApendicetomia.setOnClickListener {
+            val intent = Intent(this, ApendicetomiaActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
