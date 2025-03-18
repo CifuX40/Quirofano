@@ -30,6 +30,8 @@
         <activity android:name=".UrologiaActivity" />
         <activity android:name=".MaxilofacialActivity" />
         <activity android:name=".GinecologiaActivity" />
+        <activity android:name=".TiroidectomiaActivity"/>
+        <activity android:name=".ColecistectomiaActivity"/>
 
     </application>
 </manifest>
