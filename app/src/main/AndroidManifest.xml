@@ -39,5 +39,6 @@
         <activity android:name=".ApendicetomiaActivity"/>
         <activity android:name=".LaparotomiaActivity"/>
         <activity android:name=".HerniaHiatoActivity"/>
+        <activity android:name=".HemorroidectomiaActivity"/>
     </application>
 </manifest>
