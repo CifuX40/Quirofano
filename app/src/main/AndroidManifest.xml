@@ -30,10 +30,10 @@
         <activity android:name=".UrologiaActivity" />
         <activity android:name=".MaxilofacialActivity" />
         <activity android:name=".GinecologiaActivity" />
-        <activity android:name=".TiroidectomiaActivity"/>
-        <activity android:name=".ColecistectomiaActivity"/>
-        <activity android:name=".HerniaAbiertaActivity"/>
-        <activity android:name=".HerniaLaparoscopiaActivity"/>
-
+        <activity android:name=".TiroidectomiaActivity" />
+        <activity android:name=".ColecistectomiaActivity" />
+        <activity android:name=".HerniaAbiertaActivity" />
+        <activity android:name=".HerniaLaparoscopiaActivity" />
+        <activity android:name=".ColectomiaActivity"/>
     </application>
 </manifest>
