@@ -57,5 +57,11 @@ class CirugiaGeneralActivity : AppCompatActivity() {
             val intent = Intent(this, LaparotomiaActivity::class.java)
             startActivity(intent)
         }
+
+        val btnHerniaHiato = findViewById<Button>(R.id.button9)
+        btnHerniaHiato.setOnClickListener {
+            val intent = Intent(this, HerniaHiatoActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
