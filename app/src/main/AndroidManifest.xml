@@ -32,6 +32,8 @@
         <activity android:name=".GinecologiaActivity" />
         <activity android:name=".TiroidectomiaActivity"/>
         <activity android:name=".ColecistectomiaActivity"/>
+        <activity android:name=".HerniaAbiertaActivity"/>
+        <activity android:name=".HerniaAbiertaActivity"/>
 
     </application>
 </manifest>
