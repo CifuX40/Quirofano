@@ -45,6 +45,9 @@
         <activity android:name=".CircuncisionActivity" />
         <activity android:name=".CistoscopiaActivity" />
         <activity android:name=".VasectomiaActivity" />
+        <activity android:name=".EndarterectomiaActivity" />
+        <activity android:name=".VaricesConvencionalActivity" />
+        <activity android:name=".VaricesRadiofrecuenciaActivity" />
 
     </application>
 </manifest>
