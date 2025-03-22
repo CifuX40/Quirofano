@@ -42,5 +42,9 @@
         <activity android:name=".HemorroidectomiaActivity" />
         <activity android:name=".MastectomiaActivity" />
         <activity android:name=".ProtesisMamariaActivity" />
+        <activity android:name=".CircuncisionActivity" />
+        <activity android:name=".CistoscopiaActivity" />
+        <activity android:name=".VasectomiaActivity" />
+
     </application>
 </manifest>
