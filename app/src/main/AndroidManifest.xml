@@ -40,5 +40,7 @@
         <activity android:name=".LaparotomiaActivity" />
         <activity android:name=".HerniaHiatoActivity" />
         <activity android:name=".HemorroidectomiaActivity" />
+        <activity android:name=".MastectomiaActivity" />
+        <activity android:name=".ProtesisMamariaActivity" />
     </application>
 </manifest>
