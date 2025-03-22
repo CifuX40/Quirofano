@@ -7,7 +7,6 @@
     android:background="@drawable/fondo_de_pantalla"
     tools:context=".OtorrinoActivity">
 
-    <!-- Título -->
     <TextView
         android:id="@+id/txtTituloOtorrino"
         android:layout_width="wrap_content"
@@ -20,5 +19,45 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSeptoplastia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Septoplastia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTituloOtorrino" />
+
+    <Button
+        android:id="@+id/buttonFracturaNasal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Fractura nasal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonSeptoplastia" />
+
+    <Button
+        android:id="@+id/buttonAdenoidectomia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Adenoidectomía"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonFracturaNasal" />
+
+    <Button
+        android:id="@+id/buttonTimpanoplastia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Timpanoplastia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonAdenoidectomia" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

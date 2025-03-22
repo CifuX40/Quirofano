@@ -48,6 +48,10 @@
         <activity android:name=".EndarterectomiaActivity" />
         <activity android:name=".VaricesConvencionalActivity" />
         <activity android:name=".VaricesRadiofrecuenciaActivity" />
+        <activity android:name=".SeptoplastiaActivity" />
+        <activity android:name=".FracturaNasalActivity" />
+        <activity android:name=".AdenoidectomiaActivity" />
+        <activity android:name=".TimpanoplastiaActivity" />
 
     </application>
 </manifest>
