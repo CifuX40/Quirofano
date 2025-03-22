@@ -34,11 +34,11 @@
         <activity android:name=".ColecistectomiaActivity" />
         <activity android:name=".HerniaAbiertaActivity" />
         <activity android:name=".HerniaLaparoscopiaActivity" />
-        <activity android:name=".ColectomiaActivity"/>
-        <activity android:name=".PancreatectomiaActivity"/>
-        <activity android:name=".ApendicetomiaActivity"/>
-        <activity android:name=".LaparotomiaActivity"/>
-        <activity android:name=".HerniaHiatoActivity"/>
-        <activity android:name=".HemorroidectomiaActivity"/>
+        <activity android:name=".ColectomiaActivity" />
+        <activity android:name=".PancreatectomiaActivity" />
+        <activity android:name=".ApendicetomiaActivity" />
+        <activity android:name=".LaparotomiaActivity" />
+        <activity android:name=".HerniaHiatoActivity" />
+        <activity android:name=".HemorroidectomiaActivity" />
     </application>
 </manifest>
