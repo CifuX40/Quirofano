@@ -56,7 +56,7 @@
         <activity android:name=".LigamentosCruzadosActivity" />
         <activity android:name=".MeniscectomiaActivity" />
         <activity android:name=".TendonAquilesActivity" />
-        <activity android:name=".TumorPartesBlandasActivity" />
+        <activity android:name=".TumorPartesBlandasProfundasActivity" />
         <activity android:name=".FracturaHumeroActivity" />
         <activity android:name=".TunelCarpianoActivity" />
         <activity android:name=".ArtroplastiaHombroActivity" />

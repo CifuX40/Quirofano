@@ -23,7 +23,7 @@ class TraumatologiaActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.buttonTumorPartesBlandas).setOnClickListener {
-            startActivity(Intent(this, TumorPartesBlandasActivity::class.java))
+            startActivity(Intent(this, TumorPartesBlandasProfundasActivity::class.java))
         }
 
         findViewById<Button>(R.id.buttonFracturaHumero).setOnClickListener {
