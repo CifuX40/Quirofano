@@ -8,6 +8,7 @@
     tools:context=".TraumatologiaActivity">
 
     <TextView
+        android:id="@+id/txtTituloTraumatologia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -18,5 +19,108 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutBotones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTituloTraumatologia"
+        app:layout_constraintVertical_bias="0.101">
+
+        <Button
+            android:id="@+id/buttonLigamentosCruzados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ligamentos cruzados"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonMeniscectomia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meniscectomía"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonLigamentosCruzados" />
+
+        <Button
+            android:id="@+id/buttonTendonAquiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tendón de Aquiles"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonMeniscectomia" />
+
+        <Button
+            android:id="@+id/buttonTumorPartesBlandas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tumor partes blandas profundas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonTendonAquiles" />
+
+        <Button
+            android:id="@+id/buttonFracturaHumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fractura húmero"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonTumorPartesBlandas" />
+
+        <Button
+            android:id="@+id/buttonTunelCarpiano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Síndrome túnel carpiano"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonFracturaHumero" />
+
+        <Button
+            android:id="@+id/buttonArtroplastiaHombro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artroplastia hombro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonTunelCarpiano" />
+
+        <Button
+            android:id="@+id/buttonMicrocirugiaNervios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Microcirugía nervios periféricos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonArtroplastiaHombro" />
+
+        <Button
+            android:id="@+id/buttonFusionesVertebrales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fusiones vertebrales"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonMicrocirugiaNervios" />
+
+        <Button
+            android:id="@+id/buttonRizolisis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rizólisis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonFusionesVertebrales" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -53,6 +53,16 @@
         <activity android:name=".AdenoidectomiaActivity" />
         <activity android:name=".TimpanoplastiaActivity" />
         <activity android:name=".HisteroscopiaActivity" />
+        <activity android:name=".LigamentosCruzadosActivity" />
+        <activity android:name=".MeniscectomiaActivity" />
+        <activity android:name=".TendonAquilesActivity" />
+        <activity android:name=".TumorPartesBlandasActivity" />
+        <activity android:name=".FracturaHumeroActivity" />
+        <activity android:name=".TunelCarpianoActivity" />
+        <activity android:name=".ArtroplastiaHombroActivity" />
+        <activity android:name=".MicrocirugiaNerviosActivity" />
+        <activity android:name=".FusionesVertebralesActivity" />
+        <activity android:name=".RizolisisActivity" />
 
     </application>
 </manifest>
