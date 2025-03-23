@@ -52,6 +52,7 @@
         <activity android:name=".FracturaNasalActivity" />
         <activity android:name=".AdenoidectomiaActivity" />
         <activity android:name=".TimpanoplastiaActivity" />
+        <activity android:name=".HisteroscopiaActivity" />
 
     </application>
 </manifest>
